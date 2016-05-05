@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Danielmkarlsson.GitHub.io by danielmkarlsson</title>
+    <title>Daniel M Karlsson by danielmkarlsson</title>
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/github-light.css">
@@ -15,7 +15,7 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1>Danielmkarlsson</h1>
+        <h1>Daniel M Karlsson</h1>
         <p></p>
 
 
@@ -23,48 +23,48 @@
 
       </header>
       <section>
-        <h3>A loss of self</h3>
-[A loss of self] (https://github.com/danielmkarlsson/a_loss_of_self/archive/master.zip)
+        <h3>
+<a id="a-loss-of-self" class="anchor" href="#a-loss-of-self" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>A loss of self</h3>
 
-<p>A drone of infinite duration. 
-Made with SuperCollider 3.7 
-This .scd contains working code that can be taken apart to make your own Synthdef (which can make a sound) and your own Pdef (which can make sequencing). 
-At the top there is a no previous experience explanation of how to get sound going in SuperCollider and how to get the patch running. 
-Throughout the .scd I have tried to make as few assumptions about previous knowledge of SuperCollider as possible although I have presupposed that the reader has some previous experience with synthesis and working with sound in general. 
-I also trust that you are able to search online. 
-This is in my opinion a reasonable level of trust to have in a user.
+<p>A drone of infinite duration. <br>
+Made with <a href="https://github.com/supercollider/supercollider/releases/download/Version-3.7.1/SuperCollider-OSX-3.7.1.zip">SuperCollider 3.7</a> <br> 
+Click <a href="https://github.com/danielmkarlsson/a_loss_of_self/archive/master.zip">here</a> to download a .scd file containing working code that can be run forever either just to listen it or you can take it apart so you can learn how to make your own Synthdef (which can make sound) and your own Pdef (which can make sequencing). <br>
+At the top of the .scd there is a no previous experience explanation of how to get sound going in SuperCollider and how to get the patch running. 
+Throughout the .scd I've tried to make as few assumptions about previous knowledge of SuperCollider as possible although some previous experience with synthesis in general might come in handy but you'll be ok either way.</p>
 
-In the Synthdef there is code that can be looked at to:
+<p>In the Synthdef there is code that can be looked at to:</p>
 
-• Learn how to .clip value ranges. This is good for frequency parameters.
-• Frequency Modulation. (Actual FM)
-• Phase Modulation. (This is often referred to as FM because of the DX7)
-• Glissando using XLine (Xline is exponential which I like for frequency domain stuff but you may prefer linear)
-• Amplitude envelope using EnvGen and Env. (fade in, hold, fade out, repeat with new values)
-• Panning.
-• Mixing between different parts of the Synthdef.
-• Resonant Low Pass Filter using RLPF.
-• tanh (A kind of distortion)
-• Resonz (A kind of ringing filter)
-• AmpCompA (Does a kind of compensation that follows your hearing. It's good)
-• Compression using Compander. (Too much dynamics is not good)
-• LeakDC (If you have a problem with DC offset then this might be part of the solution)
-• High Pass Filter (used here as a DC problems and rumbly low end fix)
+<ul>
+<li>.clip value ranges. This is good for frequency parameters.</li>
+<li>Frequency Modulation. (Actual FM)</li>
+<li>Phase Modulation. (This is often referred to as FM because of the <a href="https://en.wikipedia.org/wiki/Yamaha_DX7">DX7</a>)</li>
+<li>Glissando using XLine (Xline is exponential)</li>
+<li>Amplitude envelope using EnvGen &amp; Env. (fade in, hold, fade out)</li>
+<li>Panning.</li>
+<li>Mixing between different parts of the Synthdef.</li>
+<li>Resonant Low Pass Filter using RLPF.</li>
+<li>tanh (A kind of distortion)</li>
+<li>Resonz (A kind of ringing filter)</li>
+<li>AmpCompA (Does a kind of compensation that follows your hearing)</li>
+<li>Compression using Compander. (Too much dynamics is not good)</li>
+<li>LeakDC (May solve problems with DC offset)</li>
+<li>High Pass Filter (used as a DC problems + rumbly low end fix)</li>
+</ul>
 
-In the Pdef there is code that can be looked at to:
+<p>In the Pdef there is code that can be looked at to learn:</p>
 
-• Learn how to do some sequencing of parameters in a Synthdef using the Patterns paradigm.
-• Pseed (Set a number for a permutation of infinite duration that will be the same every time you run it)
-• Pwhite (Random floats between two values)
-• Pexprand (Random values chosen exponentially so the lower the value the more likely it is to get chosen)
-• Prand (Random values chosen linearly so all of the values are just as likely to get chosen at any time)
-• Learn how to sequence various paramenters that control timbre in your Synthdef.
-• An example of patterns in patterns. SC let's you mix and match or chain things together.
-• Pkey (So that choices can be made concerning one parameter based on the outcome of another parameter)</p>
-
+<ul>
+<li>Sequencing of various parameters in a Synthdef.</li>
+<li>Pseed (A set permutation of infinite duration)</li>
+<li>Pwhite (Random floats between two values)</li>
+<li>Pexprand (The lower the value the more likely it is to get chosen)</li>
+<li>Prand (All values equally likely to get chosen at any time)</li>
+<li>Patterns in patterns. Mix and match Pattern objects together.</li>
+<li>Pkey (Choices made based on another parameters outcome)</li>
+</ul>
       </section>
       <footer>
-        <p><small></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
     <script src="javascripts/scale.fix.js"></script>
