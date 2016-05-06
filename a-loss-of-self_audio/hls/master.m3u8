@@ -1,0 +1,7 @@
+#EXTM3U
+# Created with Bento4 mp4-hls.py version 1.0.0r609
+
+
+# Media Playlists
+#EXT-X-STREAM-INF:AVERAGE-BANDWIDTH=324120,BANDWIDTH=324928,CODECS="mp4a.40.2"
+media-1/stream.m3u8
