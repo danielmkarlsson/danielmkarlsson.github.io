@@ -61,9 +61,30 @@ Click <a href="https://www.dropbox.com/s/5tt4k30n41tj3x8/No%20value%20without%20
 At the top of the .scd file there is a no previous experience explanation of how to get sound going in SuperCollider and also how to get the .scd file running on your machine. 
 At the bottom of the file is a practical walkthrough of how to get extensions installed on your machine.
 Some previous experience with synthesis in general might come in handy but you'll be ok either way.
-<p>
 <br>
+<p>In the Synthdef there is code that can be looked at to understand:</p>
 <br>
+<ul>
+<li>BrownNoise. This is a type of noise which has more bass.</li>
+<li>Impulse. This makes a very short click.</li>
+<li>Ringz. A ringing filter that makes a convenient connection between resonance and gain. /li>
+<li>Dust2. Makes a kind of crackle on both sides of the line. (-1 to +1)</li>
+<li>DFM1. A filter with a very special character. Part of the SC3 plugins.</li>
+<li>VarSaw. A saw waveform whose slant can be varied.</li>
+<li>Disintegrator. Like dropouts. Omits tiny parts of the waveform at random intervals.</li>
+<li>Resonant Low Pass Filter using RLPF.</li>
+</ul>
+<br>
+<p>In the Pdef there is code that can be looked at to learn:</p>
+<br>
+<ul>
+<li>Pstutter. Repeat a value an amount of  times. </li>
+<li>Pseq. Play a a sequence of values. </li>
+<li>Pwrand. A list of possible outcomes with a matching list of probabilities. </li>
+<li>Pshufn. Choose each element from a list then shuffle order with each emptying of the list.  </li>
+<li>Pfunc. Make a function (which can contain anything) inside a pattern stream.</li>
+<br>
+</ul>
 
 
 <br>
