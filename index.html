@@ -134,12 +134,10 @@ and how to get the .scd file running on your machine.
 Throughout the .scd I've tried to make as few assumptions about previous knowledge of SuperCollider as possible 
 although some previous experience with synthesis in general might come in handy but you'll be ok either way.</p>
 <br>
-<p>In the Synthdef there is code that can be looked at to:</p>
+<p>In the <a href="http://doc.sccode.org/Classes/SynthDef.html" target="_blank">Synthdef</a> there is code that can 
+be looked at to:</p>
 <br>
 <ul>
-  
-
-  
 <li><a href="http://doc.sccode.org/Classes/Clip.html" target="_blank">Clip</a> value ranges. This is good for 
 frequency parameters.</li>
 <li>Frequency Modulation. (Actual FM)</li>
@@ -150,28 +148,33 @@ the <a href="https://en.wikipedia.org/wiki/Yamaha_DX7" target="_blank">DX7</a>)<
 <li>Envelopes using <a href="http://doc.sccode.org/Classes/EnvGen.html" target="_blank">EnvGen</a>  and 
 <a href="http://doc.sccode.org/Classes/Env.html" target="_blank">Env</a>. (Fade in, hold, fade out)</li>
 <li>Pan2 does panning.</li>
-<li>Mixing between different parts of the 
-<a href="http://doc.sccode.org/Classes/SynthDef.html" target="_blank">Synthdef</a>.</li>
+<li>Mixing between different parts of the Synthdef.</li>
 <li><a href="http://doc.sccode.org/Classes/RLPF.html" target="_blank">RLPF</a>. A Resonant Low Pass Filter.</li>
 <li>tanh. (A kind of distortion)</li>
 <li><a href="http://doc.sccode.org/Classes/Resonz.html" target="_blank">Resonz</a>. (A kind of ringing filter)</li>
 <li><a href="http://doc.sccode.org/Classes/AmpCompA.html" target="_blank">AmpCompA</a> 
 does a kind of amplitude compensation to the spectrum that follows your hearing.</li>
-<li>Compression using Compander. (Too much dynamics is too much)</li>
-<li>LeakDC. (May solve problems with DC offset)</li>
-<li>HPF, High Pass Filter. (used as a DC problems + rumbly low end fix)</li>
+<li>Compression using <a href="http://doc.sccode.org/Classes/Compander.html" target="_blank">Compander</a>. 
+Too much dynamics is too much.</li>
+<li><a href="http://doc.sccode.org/Classes/LeakDC.html" target="_blank">LeakDC</a>. (May solve problems with DC offset)</li>
+<li><a href="http://doc.sccode.org/Classes/HPF.html" target="_blank">HPF</a>, High Pass Filter. 
+Used here as a DC problems + rumbly low end fix.</li>
 </ul>
 <br>
-<p>In the Pdef there is code that can be looked at to learn:</p>
+<p>In the <a href="http://doc.sccode.org/Classes/Pdef.html" target="_blank">Pdef</a> there is code that can be looked at 
+to learn:</p>
 <br>
 <ul>
 <li>Sequencing of various parameters in a Synthdef.</li>
-<li>Pseed. (A set permutation of infinite duration)</li>
-<li>Pwhite. (Random floats between two values)</li>
-<li>Pexprand. (The lower the value the more likely it is to get chosen)</li>
-<li>Prand. (All values equally likely to get chosen at any time)</li>
+<li><a href="http://doc.sccode.org/Classes/Pseed.html" target="_blank">Pseed</a>. A set permutation of infinite duration.</li>
+<li><a href="http://doc.sccode.org/Classes/Pwhite.html" target="_blank">Pwhite</a>. Random floats between two values.</li>
+<li><a href="http://doc.sccode.org/Classes/Pexprand.html" target="_blank">Pexprand</a>. The lower the value the more likely 
+it is to get chosen.</li>
+<li><a href="http://doc.sccode.org/Classes/Prand.html" target="_blank">Prand</a>. All values equally likely to get chosen 
+at any time.</li>
 <li>Patterns in patterns. Mix and match Pattern objects together.</li>
-<li>Pkey. (Choices made based on another parameters outcome)</li>
+<li><a href="http://doc.sccode.org/Classes/Pkey.html" target="_blank">Pkey</a>. Choices made based on another parameters 
+outcome.</li>
 <br>
 </ul>
 
