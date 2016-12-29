@@ -14,9 +14,9 @@ div {
     top: 10px;
     width: 100%;
     height: 3px;
-    border-width: 1px;
-    border-color: #333333;
-    border-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #333333;
+    border-bottom-style: solid;
     margin: 0px;
     background-color: transparent;
     -moz-box-sizing:border-box;
